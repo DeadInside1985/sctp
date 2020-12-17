@@ -42,7 +42,7 @@ var (
 
 const (
 	receiveMTU            uint32 = 8192 // MTU for inbound packet (from DTLS)
-	initialMTU            uint32 = 1228 // initial MTU for outgoing packets (to DTLS)
+	initialMTU            uint32 = 8192 // initial MTU for outgoing packets (to DTLS)
 	initialRecvBufSize    uint32 = 1024 * 1024
 	commonHeaderSize      uint32 = 12
 	dataChunkHeaderSize   uint32 = 16
